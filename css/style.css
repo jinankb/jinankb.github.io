@@ -1,6 +1,11 @@
 ul{
   padding-left:0;
 }
+ul.points li{
+  margin: 1.5rem;
+  list-style-type: disc;
+  line-height: 1.2;
+}
 button{
   color: #333;
   font-family: 'Lato', Arial, sans-serif;
@@ -247,16 +252,17 @@ nav li a{
 .tabpara.active{
   display: block;
 }
-.concerns{
+.tab-container{
+  margin: 2rem 0;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  padding: 3rem;
   text-align: justify;
   line-height: 1.6;
   color: #555;
 }
-.tab-container{
-  margin: 2rem 6rem;
-  background: #fff;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  padding: 3rem;
+.tab-container.about{
+  margin: 2rem 0;
 }
 /* Contact Form */
 .contact-grid{
@@ -283,9 +289,10 @@ nav li a{
 }
 .contact-body form input,textarea{
   border: none;
-  border-bottom: 2px solid #939985;
+  border-bottom: 1.5px solid #939985;
   padding: 0.5rem;
   margin-bottom: 1rem;
+  outline: none;
 }
 .contact-location{
   box-sizing: border-box;
@@ -330,6 +337,7 @@ nav li a{
   font-weight: 400;
   text-transform: uppercase;
   border-bottom: 1px solid #e5e5e5;
+  box-sizing: border-box;
 }
 
 .accordion a:hover,
@@ -352,7 +360,7 @@ nav li a{
   content: '\f0fe';
   position: absolute;
   float: right;
-  right: 5rem;
+  right: 2rem;
   font-size: 1rem;
   color: #7c8967;
   padding: 5px;
@@ -396,4 +404,33 @@ nav li a{
   -webkit-transition: all 0.35s ease 0.15s;
   -o-transition: all 0.35s ease 0.15s;
   transition: all 0.35s ease 0.15s;
+}
+.accordion .content.links p{
+  font-size: 0.85rem;
+}
+.accordion .content.links a{
+  text-transform: lowercase;
+  color: #4169e1;
+}
+.accordion .content.links a:hover{
+  color: #323f66;
+}
+.accordion .content.links a::after{
+  display: none;
+}
+/*Video Page*/
+.video-grid{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+.video-card{
+  background: #fff;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin: 0 0.5rem 1rem;
+}
+.video-card h6{
+  padding: 0.7rem;
+  margin: 0;
+  text-transform: uppercase;
 }
