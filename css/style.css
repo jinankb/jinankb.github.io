@@ -212,7 +212,9 @@ nav li a{
   margin: 0;
   padding: 1.5rem 2rem;
 }
-
+.header-banner img{
+  height: 150px;
+}
 /* Tabs */
 .tab-head{
   display: flex;
