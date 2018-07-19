@@ -462,3 +462,45 @@ nav li a{
 /* .warning-content p{
   align-items: center;
 } */
+@media screen and (max-width: 480px){
+  .container{
+    width: 95%;
+  }
+  nav{
+    background: #fff;
+    padding-bottom: 0.5rem;
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    z-index: 99;
+  }
+  .nav{
+    flex-wrap: wrap;
+  }
+  nav ul{
+   width: 100%;
+   flex-direction: column;
+   display: none;
+  }
+  .inner-nav.condensed ul{
+    display: none;
+    flex-direction: column;
+  }
+  .header-banner{
+    margin-top: 3.5rem;
+  }
+  .header-banner h1{
+    font-size: 1rem;
+  }
+  #inner-nav-collapse{
+    color: #fff;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    box-sizing: border-box;
+    text-align: right;
+  }
+  .main-grid{
+    flex-direction: column;
+  }
+}

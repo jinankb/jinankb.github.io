@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 url: 'https://www.jinankb.in' # the base hostname & protocol for your site, e.g. http://example.com
 title: "Jinan KB"
-description: "ICO rating, listing, and calendar with details on top ICOs from various industries. Learn more about ICO funding, whitepaper, dates, teams, and roadmaps."
-keywords: "ico alert, ico analysis, ico list, list of icos, list of crypto icos, initial coin offering, active icos, upcoming initial coin offerings, upcoming icos, active icos, cryptocurrency icos, new crypto icos, crypto icos, new icos, crypto ico list, comprehensive ico list, future icos, discover icos, token sale calendar, ico calendar, crowdsale calendar, crowdsales, token sales"
+description: "Jinan KB"
+keywords: "Jinan KB"
 logo: "/images/logo.png"
 # Build settings
 markdown: kramdown
