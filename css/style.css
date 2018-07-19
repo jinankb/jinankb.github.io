@@ -474,24 +474,39 @@ nav li a{
     left:0;
     width: 100%;
     z-index: 99;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   }
   .nav{
     flex-wrap: wrap;
+    
+  }
+  #nav-collapse{
+    font-size: 1.5rem;
   }
   nav ul{
    width: 100%;
    flex-direction: column;
    display: none;
+   text-transform: uppercase;
+  }
+  nav ul li{
+    border-bottom: 1px solid #777;
+    padding: 0.4rem;
   }
   .inner-nav.condensed ul{
     display: none;
     flex-direction: column;
+    text-transform: uppercase;
+  }
+  .inner-nav{
+    flex-wrap: wrap;
   }
   .header-banner{
-    margin-top: 3.5rem;
+    margin-top: 3.8rem;
   }
   .header-banner h1{
     font-size: 1rem;
+    padding: 1rem 0.5rem;
   }
   #inner-nav-collapse{
     color: #fff;
@@ -502,5 +517,34 @@ nav li a{
   }
   .main-grid{
     flex-direction: column;
+  }
+  .accordion a::after{
+    right: 1rem;
+  }
+  .accordion .content.active{
+    padding: 1rem;
+  }
+  .accordion .content.links a{
+    padding: 0.5rem;
+  }
+  .video-grid{
+    flex-direction: column;
+  }
+  .tab-container{
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  .tab-head h3{
+    font-size: 0.7rem;
+  }
+  .contact-grid{
+    flex-direction: column-reverse;
+    margin: 0;
+  }
+  .contact-location{
+    margin: 1rem;
+  }
+  .contact{
+    margin: 1rem;
   }
 }

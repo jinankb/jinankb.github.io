@@ -1,3 +1,20 @@
+const navToggle = document.getElementById('nav-collapse');
+const navList =  document.getElementById('nav-list');
+const windowWidth = window.innerWidth;
+console.log(windowWidth);
+if( windowWidth <= 480){
+    navList.style.display = "none";
+}
+navToggle.addEventListener('click', () => {
+    if( navList.style.display == "none"){
+    navList.style.display = "block";
+    navToggle.textContent = "X";
+    } else {
+        navList.style.display = "none";
+        navToggle.textContent = "☰";
+
+    }
+});
 /* Tabs */
 const tabHead = document.querySelectorAll('.tab-head h3');
 tabHead.forEach((thead) =>{
