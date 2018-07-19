@@ -50,6 +50,12 @@ nav{
   justify-content: space-between;
 
 }
+#nav-collapse{
+  display: none;
+}
+#inner-nav-collapse{
+  display: none;
+}
 .logo{
   font-size: 1.4rem;
   display: flex;
@@ -485,6 +491,10 @@ nav li a{
   }
   #nav-collapse{
     font-size: 1.5rem;
+    display: block;
+  }
+  #inner-nav-collapse{
+    display: block;
   }
   nav ul{
    width: 100%;
@@ -523,7 +533,7 @@ nav li a{
   }
   .accordion a{
     padding: 1rem;
-    font-size: 0.6rem;
+    font-size: 0.75rem;
   }
   .accordion a::after{
     right: 1rem;
@@ -533,6 +543,22 @@ nav li a{
   }
   .accordion .content.links a{
     padding: 0.5rem;
+
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
   }
   .video-grid{
     flex-direction: column;
