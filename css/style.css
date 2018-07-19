@@ -521,8 +521,8 @@ nav li a{
   }
   .header-banner h1{
     font-size: 1rem;
-    /* padding: 1rem 0.5rem; */
-    font-weight: 400;
+    padding: 1rem 0.5rem;
+    /* font-weight: 400; */
   }
   #inner-nav-collapse{
     color: #fff;
