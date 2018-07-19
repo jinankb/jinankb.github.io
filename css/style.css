@@ -463,6 +463,9 @@ nav li a{
   align-items: center;
 } */
 @media screen and (max-width: 480px){
+  p{
+    font-size: 0.8rem;
+  }
   .container{
     width: 95%;
   }
@@ -502,7 +505,7 @@ nav li a{
     flex-wrap: wrap;
   }
   .header-banner{
-    margin-top: 3.8rem;
+    margin-top: 4rem;
   }
   .header-banner h1{
     font-size: 1rem;
@@ -517,6 +520,10 @@ nav li a{
   }
   .main-grid{
     flex-direction: column;
+  }
+  .accordion a{
+    padding: 1rem;
+    font-size: 0.6rem;
   }
   .accordion a::after{
     right: 1rem;
