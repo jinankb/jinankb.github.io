@@ -493,6 +493,9 @@ nav li a{
     font-size: 1.5rem;
     display: block;
   }
+  .inner-nav.condensed ul.hidemb{
+    display: none;
+  }
   #inner-nav-collapse{
     display: block;
   }
@@ -509,25 +512,29 @@ nav li a{
     padding: 0.4rem;
   }
   .inner-nav.condensed ul{
-    display: none;
+    /* display: none; */
     flex-direction: column;
     text-transform: uppercase;
+    padding-bottom: 1rem;
   }
   .inner-nav{
     flex-wrap: wrap;
+    width: 94%;
+    box-sizing: border-box;
+    padding: 0.5rem;
   }
   .header-banner{
     margin-top: 4rem;
   }
   .header-banner h1{
     font-size: 1rem;
-    padding: 1rem 0.5rem;
+    padding: 1rem 1rem 0.7rem 0;
     /* font-weight: 400; */
   }
   #inner-nav-collapse{
     color: #fff;
     width: 100%;
-    padding: 0.5rem 1rem;
+    padding: 0 1rem;
     box-sizing: border-box;
     text-align: right;
   }

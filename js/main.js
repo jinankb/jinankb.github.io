@@ -15,6 +15,17 @@ navToggle.addEventListener('click', () => {
 
     }
 });
+
+const innerNavToggle = document.getElementById('inner-nav-collapse');
+const innerNavList = document.querySelector('.inner-nav-links');
+innerNavToggle.addEventListener('click', ()=>{
+    innerNavList.classList.toggle('hidemb');
+    if(innerNavToggle.textContent == "▼"){
+        innerNavToggle.textContent = "X";
+    } else {
+        innerNavToggle.textContent = "▼";
+    }
+});
 /* Tabs */
 const tabHead = document.querySelectorAll('.tab-head h3');
 tabHead.forEach((thead) =>{
