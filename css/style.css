@@ -585,9 +585,9 @@ nav li a{
     margin: 0;
   }
   .contact-location{
-    margin: 1rem;
+    margin: 1rem 0;
   }
   .contact{
-    margin: 1rem;
+    margin: 0 0 1rem;
   }
 }
