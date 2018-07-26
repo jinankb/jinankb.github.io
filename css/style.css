@@ -117,6 +117,15 @@ nav li a{
   position: relative;
   min-height: 20rem;
 }
+.card a{
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
 
 .card.about{
   font-size: 8.5pt;
@@ -590,4 +599,5 @@ nav li a{
   .contact{
     margin: 0 0 1rem;
   }
+
 }
